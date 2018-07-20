@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+/* @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300'); */
 
 * {
     box-sizing: border-box
@@ -27,7 +27,8 @@ body {
 
 /*    font-family: 'Poiret One', cursive;*/
 /* 	font-family: 'Josefin Sans', sans-serif;*/
-    font-family: 'Open Sans Condensed', sans-serif;
+     font-family: "calluna-sans", Helvetica, Roboto, Arial, sans-serif;
+  font-weight: normal;
 
 
   	padding-bottom: 20px;
