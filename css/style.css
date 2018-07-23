@@ -110,7 +110,7 @@ font-family: 'Open Sans Condensed', sans-serif;
 }
 
 #maintitle:hover {
-	opacity: .7;
+	opacity: .9;
 	cursor: pointer;
 }
 
@@ -171,13 +171,13 @@ figcaption {
 	-o-transition: opacity .7s ease-out;
 	-transition: opacity .7s ease-out;
 }
-.column a:hover{
-	opacity: .9;
-	cursor: pointer;
 
-/* *********** End Main Links Section ********** */
+.column a:hover{
+	opacity: .3;
+	cursor: pointer;
 }
 
+/* *********** End Main Links Section ********** */
 .bottom {
 
   max-width: 1280px;
