@@ -2,38 +2,28 @@
 
 * {
     box-sizing: border-box
-
 }
 
 
 body {
-
-
-
 	background: url("image.png");
     background-color: gray;
-
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
     height: 610px;
     width: auto;
-
     margin-left: auto;
     margin-right: auto;
 	height: 100%;
     margin: 0 auto;
 
-
 /*    font-family: 'Poiret One', cursive;*/
 /* 	font-family: 'Josefin Sans', sans-serif;*/
-     font-family: "calluna-sans", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "calluna-sans", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
-
-
-  	padding-bottom: 20px;
-	padding-top: 20px;
-
+padding-bottom: 20px;
+padding-top: 20px;
 }
 
 #wrapper {
@@ -41,11 +31,9 @@ body {
     max-width: 1000px;
 
 }
-
 a:link, a:visited, a:active, a:hover {
 	text-decoration: none;
 }
-
 
 ul {
 	margin: 0;
@@ -59,9 +47,7 @@ ul {
 
 }
 
-
 .header {
-
 	max-width: 1000px;
 	margin: 0 auto 0 auto;
 	display: flex;
@@ -80,12 +66,10 @@ font-family: 'Open Sans Condensed', sans-serif;
 
 .gmailanddriveimg {
 	height: 100px;
-
 }
 
 #gmail {
 	order: 1;
-
 }
 
 #maintitle {
@@ -101,7 +85,6 @@ font-family: 'Open Sans Condensed', sans-serif;
 	font-weight: bold;
 	order: 2;
 	flex: 1;
-
 }
 
 #maintitle a {
@@ -123,15 +106,12 @@ font-family: 'Open Sans Condensed', sans-serif;
 figcaption {
     display: block;
     font-size: 24px;
-    color: White;
+    color: white;
 }
 
 /*  *********Start Main Links*************** */
 
 .mainlinks {
-
-
-
 	max-width: 1000px;
   	margin: 0px auto 0px auto;
   	line-height: 1.65;
@@ -144,15 +124,11 @@ figcaption {
 
 .mainlinks h3 {
 	font-size: 1.5em;
-
-
 }
 
 .column {
 	padding: 20px;
   	box-sizing: border-box;
-
-
 }
 
 .column a {
@@ -179,27 +155,26 @@ figcaption {
 
 /* *********** End Main Links Section ********** */
 .bottom {
-
   max-width: 1280px;
   margin: 0px auto 0px auto;
   padding-top: 25px;
   padding-bottom: 25px;
-  text-align: center;
-  display: flex;
-  justify-content: space-between;
-
-
+  text-align: center;  
+  
+/*   display: flex;
+  justify-content: space-between; */
 }
-
 
 .bottomitem {
 
-	flex-basis: 45%;
+	/* flex-basis: 100%; */
+	
+	
+	border: solid 5px white;
 }
 
 .bottomitem img {
 	height: 150px;
-
 }
 
 
@@ -229,11 +204,7 @@ figcaption {
 #footerlist a {
 	color: white;
 	margin: auto
-
-
-
 }
-
 
 
 /*    begin mobile layout css
@@ -243,5 +214,4 @@ figcaption {
     justify-content: space-between;
   }
 }
-
 */
