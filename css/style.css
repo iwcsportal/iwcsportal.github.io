@@ -207,6 +207,13 @@ figcaption {
 }
 
 
+
+.small-text {
+	
+	font-size: 40%;
+	
+}
+
 /*    begin mobile layout css
 @media (min-width: 600px) {
   .mainlinks {
