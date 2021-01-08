@@ -214,6 +214,40 @@ figcaption {
 	
 }
 
+
+
+#faxdiv {
+	
+	margin: auto;
+	text-align: center;
+	width: 250px;
+	/* height: 40px;
+	  margin: 3px; 
+	  */
+	  
+	font-weight: bold;
+	color: #111;
+	opacity: .7;
+	font-size: 1.5em;
+	background: #eee;
+	border: 1px solid black;
+	border-radius: 20px;
+	-webkit-transition: opacity .7s ease-out;
+	-moz-transition: opacity .7s ease-out;
+	-o-transition: opacity .7s ease-out;
+	-transition: opacity .7s ease-out;
+	
+}
+
+
+
+#faxdiv a:hover{
+	opacity: .3;
+	cursor: pointer;
+}
+
+
+
 /*    begin mobile layout css
 @media (min-width: 600px) {
   .mainlinks {
