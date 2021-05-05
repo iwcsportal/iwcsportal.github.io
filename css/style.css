@@ -248,6 +248,18 @@ figcaption {
 
 
 
+.schoolboard {
+	
+	font-size: 1.2em;
+	
+}
+
+.schoolboard p,ol {
+	
+	/* color: #fff; */
+}
+
+
 /*    begin mobile layout css
 @media (min-width: 600px) {
   .mainlinks {
