@@ -153,6 +153,24 @@ figcaption {
 	cursor: pointer;
 }
 
+
+a.hub {
+	width: 250px;
+	height: 40px;
+	margin: 3px;
+	color: #111;
+	opacity: .7;
+	font-size: 1.3em;
+	display: inline-block;
+	background: #bdd9f0;
+	border: 1px solid black;
+	border-radius: 20px;
+	-webkit-transition: opacity .7s ease-out;
+	-moz-transition: opacity .7s ease-out;
+	-o-transition: opacity .7s ease-out;
+	-transition: opacity .7s ease-out;
+}
+
 /* *********** End Main Links Section ********** */
 .bottom {
   max-width: 1280px;
