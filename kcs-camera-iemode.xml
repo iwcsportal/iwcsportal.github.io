@@ -6,6 +6,6 @@
   </created-by>
   <site url="172.16.0.10/">
     <compat-mode>Default</compat-mode>
-    <open-in allow-redirect="true">MSEdge</open-in>
+    <open-in allow-redirect="true">IE11</open-in>
   </site>
 </site-list>
