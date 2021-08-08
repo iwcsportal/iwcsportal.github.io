@@ -4,7 +4,7 @@
     <version>12.0.0.0</version>
     <date-created>08/08/2021 19:28:34</date-created>
   </created-by>
-  <site url="http//172.16.0.10/">
+  <site url="172.16.0.10/">
     <compat-mode>Default</compat-mode>
     <open-in allow-redirect="true">MSEdge</open-in>
   </site>
