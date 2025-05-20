@@ -278,6 +278,28 @@ a.hub {
 }
 
 
+
+#copilot-link a {
+  font-size: 1em; /* smaller text */
+  font-weight: bold;
+  text-decoration: underline;
+  animation: rainbow-flash 4s infinite;
+  text-align: center;
+}
+
+@keyframes rainbow-flash {
+  0%   { color: red; }
+  14%  { color: orange; }
+  42%  { color: green; }
+  57%  { color: blue; }
+  71%  { color: indigo; }
+  85%  { color: violet; }
+  100% { color: red; }
+}
+
+
+
+
 /*    begin mobile layout css
 @media (min-width: 600px) {
   .mainlinks {
