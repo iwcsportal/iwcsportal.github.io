@@ -283,7 +283,7 @@ a.hub {
   font-size: 1em; /* smaller text */
   font-weight: bold;
   text-decoration: underline;
-  animation: rainbow-flash 4s infinite;
+  animation: rainbow-flash 10s infinite;
   text-align: center;
 }
 
