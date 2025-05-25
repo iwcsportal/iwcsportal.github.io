@@ -277,7 +277,13 @@ a.hub {
 	/* color: #fff; */
 }
 
-
+.copilot-link-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
+}
 
 #copilot-link a {
   font-size: 1em; /* smaller text */
@@ -285,6 +291,7 @@ a.hub {
   text-decoration: underline;
   animation: rainbow-flash 3s infinite;
   text-align: center;
+
 }
 
 @keyframes rainbow-flash {
