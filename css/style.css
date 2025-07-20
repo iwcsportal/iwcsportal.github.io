@@ -1,22 +1,27 @@
+/* Teal color for specific links */
+a[href="https://iwcs.jitbit.com/Tickets/new?categoryId=625333&priority=0"],
+a[href="https://iwcs.jitbit.com/Tickets/new?categoryId=625337&priority=0"] {
+  color: teal !important;
+}
 /* @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300'); */
 
 * {
-    box-sizing: border-box
+	box-sizing: border-box
 }
 
 
 body {
 	background: url("image.png");
-    background-color: gray;
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: relative;
-    height: 610px;
-    width: auto;
-    margin-left: auto;
-    margin-right: auto;
+	background-color: gray;
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: relative;
+	height: 610px;
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
 	height: 100%;
-    margin: 0 auto;
+	margin: 0 auto;
 
 /*    font-family: 'Poiret One', cursive;*/
 /* 	font-family: 'Josefin Sans', sans-serif;*/
@@ -27,8 +32,8 @@ padding-top: 20px;
 }
 
 #wrapper {
-    margin: 0 auto;
-    max-width: 1000px;
+	margin: 0 auto;
+	max-width: 1000px;
 
 }
 a:link, a:visited, a:active, a:hover {
@@ -43,7 +48,7 @@ ul {
 /*    font-family: 'Raleway', sans-serif;*/
 /*    font-family: 'Open Sans Condensed', sans-serif;*/
 /*    font-family: 'Josefin Sans', sans-serif;*/
-    font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif;
 
 }
 
@@ -104,22 +109,22 @@ font-family: 'Open Sans Condensed', sans-serif;
 }
 
 figcaption {
-    display: block;
-    font-size: 24px;
-    color: white;
+	display: block;
+	font-size: 24px;
+	color: white;
 }
 
 /*  *********Start Main Links*************** */
 
 .mainlinks {
 	max-width: 1000px;
-  	margin: 0px auto 0px auto;
-  	line-height: 1.65;
-  	padding: 0px 0px;
-  	text-align: center;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+	margin: 0px auto 0px auto;
+	line-height: 1.65;
+	padding: 0px 0px;
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 .mainlinks h3 {
@@ -128,7 +133,7 @@ figcaption {
 
 .column {
 	padding: 20px;
-  	box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 .column a {
@@ -312,8 +317,8 @@ a.hub {
 /*    begin mobile layout css
 @media (min-width: 600px) {
   .mainlinks {
-    display: flex;
-    justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
   }
 }
 */
