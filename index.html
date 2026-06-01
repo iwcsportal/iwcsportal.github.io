@@ -183,7 +183,20 @@ Big Ideas Math - https://www.bigideasmath.com/BIM/login
 	
 	</ul>
 </div>
+Get Status
+Get-ItemProperty -Path HKLM:\SYSTEM\CurrentControlSet\Control\SecureBoot\Servicing\ -Name UEFICA2023Status | Select-Object UEFICA2023Status
 
+Is ready for update?
+Get-ItemProperty -Path 'HKLM:\SYSTEM\CurrentControlSet\Control\SecureBoot' -Name 'AvailableUpdates'
+
+Set for update: Should be done by Intune
+Set-ItemProperty -Path ‘HKLM:\SYSTEM\CurrentControlSet\Control\SecureBoot’ -Name ‘AvailableUpdates’ -Value 0x5944
+
+Force Update (run once, reboot, run again, reboot again)
+Start-ScheduledTask -TaskName ‘\Microsoft\Windows\PI\Secure-Boot-Update’
+
+Get Status Again
+Get-ItemProperty -Path HKLM:\SYSTEM\CurrentControlSet\Control\SecureBoot\Servicing\ -Name UEFICA2023Status | Select-Object UEFICA2023Status
 
 </div>  <!-- END mainlinksdiv -->
 
